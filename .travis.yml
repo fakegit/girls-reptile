@@ -36,6 +36,4 @@ script:
 branches:
   only:
   - master
-deploy:
-  on:
-    tags: true
+if: tag IS present
