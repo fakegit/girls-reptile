@@ -9,7 +9,7 @@ branches:
 provider: Environment
   name: production
   on:
-    APPVEYOR_REPO_TAG: false
+    APPVEYOR_REPO_TAG: true
 
 image: Visual Studio 2017
 platform:
